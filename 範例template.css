@@ -1,0 +1,160 @@
+/*common*/
+
+*{
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	color: #505458;
+}
+
+a{
+	cursor: pointer;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.container-fluid{
+	width:100%;
+	padding: 0 15px;
+	
+
+}
+
+.clearfix{
+	content: "";
+	display: table;
+	clear:both;
+}
+
+/*header*/
+
+#header{
+	position: fixed;
+	background-color: #fff;
+	width: 100%;
+}
+
+#logo{
+	float: left;
+	padding: 32px 15px 32px 15px;
+
+}
+
+#logo img{
+	max-width: 430px;
+	height: auto;
+}
+
+#nav{
+	float: right;
+	
+}
+
+#nav li{
+	float: left;
+}
+
+#nav li:hover{
+border-bottom: 4px solid rgba(65, 146, 90, 0.49);
+}
+
+#nav ul{
+	list-style-type: none;
+	margin: 0;
+    line-height: 104px;
+}
+
+#nav a{
+	
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+
+/*slideshow*/
+#slideshow{
+	background-image:url(http://mic.lyrasoft.net/asset/images/57501516_ml.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+
+#slideshow h1{
+	padding-top: 200px;
+    margin: 0;
+    color: #fff;
+	font-size: 36px;
+
+}
+
+#slideshow p{
+	max-width: 500px;
+	color: #fff;
+	line-height: 2em;
+	font-size: 18px;
+}
+
+/*content*/
+#content{
+	padding-top: 40px;
+}
+
+.col-4 p{
+	line-height: 2em;
+	height: 114px;
+}
+
+.col-4{
+	float: left;
+	width: 33.3333%;
+	padding:0 10px;
+}
+
+.col-4 img{
+	width: 100%;
+}
+
+
+.col-4 a{
+	display: inline-block;
+	background-color: #5fbeaa;
+	text-decoration: none;
+	color:#fff;
+	padding: 10px 15px;
+	border-radius: 3px;
+}
+
+.row{
+	margin: 0 -10px;
+}
+
+
+
+/*footer*/
+#footer{
+	background-color: #36404a;
+	width:100%;
+	margin-top: 40px;
+}
+
+#footermenu{
+	float: right;
+	padding: 20px 15px;
+}
+
+#footermenu li{
+	float: left;
+}
+
+#footermenu ul{
+	list-style-type: none;
+}
+ 
+#footermenu a{
+	color: #fff;
+	text-decoration: none;
+	padding:0 10px;
+	font-size: 14px;
+}
